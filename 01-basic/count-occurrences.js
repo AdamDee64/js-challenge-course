@@ -34,6 +34,7 @@ function countOccurrences(str, char) {
 
 var string1 = 'HELLO world!'
   
+let start = Date.now()
 console.log(countOccurrences(string1, 'l')) // 3
 console.log(countOccurrences(string1, 'L')) // 3
 console.log(countOccurrences(string1, 'z')) // 0
@@ -41,3 +42,6 @@ console.log(countOccurrences(string1, 'e')) // 1
 console.log(countOccurrences(string1, 'o')) // 2
 console.log(countOccurrences(string1, '!')) // 1
 console.log(countOccurrences(string1, '?')) // 0
+
+let end = Date.now() - start
+console.log("finished in ", end / 1000, "seconds")

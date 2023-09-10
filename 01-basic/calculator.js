@@ -1,3 +1,6 @@
+// calculate two values with a given operator
+
+
 function calculate(a, b, s) {
   switch (s) {
     case '+':
