@@ -11,9 +11,7 @@ function isPalendrome(str){
   const end = test.length - 1
 
   for(let i = 0; i < test.length / 2; i++){
-    if(test[i] != test[end - i]){
-      return false
-    }
+    if(test[i] != test[end - i]) return false
   }
   return true
 }

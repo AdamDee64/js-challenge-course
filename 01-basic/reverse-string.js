@@ -1,3 +1,5 @@
+// reverse a string
+
 let string1 = "This is a string"
 let string2 = "!!@@** boogie time tonight **%%$$"
 

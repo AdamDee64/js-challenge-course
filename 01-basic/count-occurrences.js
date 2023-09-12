@@ -1,7 +1,7 @@
 // count the occurrences of a char within a string
 
 
-// case insensitive version
+// case insensitive solution
 function countOccurrences(str, char) {
   let count = 0
   let b = char.charCodeAt(0)
